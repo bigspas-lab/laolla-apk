@@ -57,10 +57,8 @@ public class MainActivity extends Activity {
 
         // Caché para funcionamiento offline
         settings.setCacheMode(WebSettings.LOAD_DEFAULT);
-        settings.setAppCacheEnabled(true);
-        String cachePath = getCacheDir().getAbsolutePath();
-        settings.setAppCachePath(cachePath);
 
+      
         // Escala y zoom
         settings.setUseWideViewPort(true);
         settings.setLoadWithOverviewMode(true);
